@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="css/weather-icons.css" type="text/css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <script src="renderer.js"></script>
+</head>
+
+<body>
+  <div class="container-flex flex-column">
+    <div class="header">
+      <input type="text" id="search-input" placeholder="Rechercher...">
+    </div>
+    <div class="content">
+      <div class="weather-context">
+        <div class="city"></div>
+        <div class="date">Mardi 08 Juil.</div>
+      </div>
+      <div class="weather-content">
+        <!-- Mettre les détails ici -->
+        <div class="weather-temperature">
+          <div class="temperature-text">
+            <span></span>°
+          </div>
+          <div class="min-temperature-text">
+            Min:
+            <span></span>°
+          </div>
+          <div class="max-temperature-text">
+            Max:
+            <span></span>°
+          </div>
+          <div class="humidity">
+            Humidité:
+            <span></span> %
+          </div>
+          <div class="pressure">
+            Pression:
+            <span></span> Hp
+          </div>
+        </div>
+        <div class="icon">
+          <i class="wi"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
